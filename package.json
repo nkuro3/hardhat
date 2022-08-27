@@ -1,0 +1,27 @@
+{
+  "name": "hardhat",
+  "version": "1.0.0",
+  "description": "- [Hardhat official](https://hardhat.org/hardhat-runner/docs/getting-started#overview) - [Solidity+Hardhat+React(TypeScript)でFaucetを作ってみる](https://zenn.dev/hayatoomori/articles/04e4dd3b87db82)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nkuro3/hardhat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nkuro3/hardhat/issues"
+  },
+  "homepage": "https://github.com/nkuro3/hardhat#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
