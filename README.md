@@ -109,12 +109,10 @@ vscodeでmochaをgui的に実行できる。
 [拡張機能](https://marketplace.visualstudio.com/items?itemName=hbenl.vscode-mocha-test-adapter)をインストール。
 `.mocharc.json`を用意
 ```json
-.mocharc.json
-
 {
   "require": "hardhat/register",
   "timeout": 40000,
-  "_": ["test/*.ts"] // typescriptの場合に必要
+  "_": ["test/*.ts"]
 }
 ```
 
