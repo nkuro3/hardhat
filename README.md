@@ -9,6 +9,8 @@ typescriptでprojectを作成
 npm init -y
 
 npm install --save-dev hardhat
+
+npx hardhat
 > Create a TypeScript project
 ```
 #### Compiling your contracts
@@ -115,8 +117,3 @@ vscodeでmochaをgui的に実行できる。
   "_": ["test/*.ts"]
 }
 ```
-
-
-
-
-
